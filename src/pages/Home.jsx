@@ -5,7 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useGlobalContext } from "./Context";
-import { NavLink } from "react-router-dom";
+
 import { useEffect, useState } from "react";
 
 function Home() {
@@ -43,6 +43,7 @@ function Home() {
             className="p-3 border-2 border-gray-800 rounded-3xl w-64 bg-transparent text-white"
             onChange={(e) => setSearchText(e.target.value)}
           />
+
           <button
             type="submit"
             className="bg-yellow-500 text-black px-4 py-2 rounded-full hover:bg-yellow-600 transition"
@@ -72,7 +73,7 @@ function Home() {
                     <img
                       src={Poster}
                       alt={Title}
-                      className="w-full h-80 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                      className="w-full h-80 object-cover hover:scale-105"
                     />
                   </div>
 
