@@ -1,4 +1,5 @@
 Movie Search App
+
 A simple and responsive React app to search movies, view details, and save your favourites. Built with React, FontAwesome, and Tailwind CSS.
 
 Features
