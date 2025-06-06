@@ -1,12 +1,72 @@
-# React + Vite
+Movie Search App
+A simple and responsive React app to search movies, view details, and save your favourites. Built with React, FontAwesome, and Tailwind CSS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Search movies by title
 
-Currently, two official plugins are available:
+View movie posters and basic info
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add/remove movies to your favourites list
 
-## Expanding the ESLint configuration
+Persistent favourites saved in local storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive design with Tailwind CSS
+
+Toggle view between all movies and favourites
+
+Demo
+Add a link or GIF here if you have one
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/movie-search.git
+cd movie-search
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Running the App
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Open http://localhost:3000 in your browser to see the app.
+
+Technologies Used
+React
+
+Tailwind CSS
+
+FontAwesome
+
+Local Storage API
+
+Context API for global state management
+
+Folder Structure
+bash
+Copy
+Edit
+/src
+  /components
+  /context
+  /assets
+  App.js
+  index.js
+How to Use
+Use the search bar to find movies by typing at least 3 characters.
+
+Click the heart icon to add/remove movies from favourites.
+
+Use the toggle button to switch between all movies and your favourites list.
+
+Contribution
+Feel free to fork this repo, submit issues, or send pull requests.
