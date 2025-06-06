@@ -17,6 +17,12 @@ Clone the repository:
 
 git clone https://github.com/your-username/movie-search.git
 cd movie-search
+
+Create .env file 
+Add VITE_API_KEY
+
+get key from omdbapi.com
+
 Install dependencies:
 
 
@@ -28,7 +34,7 @@ Start the development server:
 Open http://localhost:3000 in your browser to see the app.
 
 ## Technologies Used
-React
+
 1.React
 2.Tailwind css
 3.Local Storage API
