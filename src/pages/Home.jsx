@@ -130,6 +130,8 @@ function Home() {
 
                             if (!alreadyAdded) {
                               setFavourite([...favourites, movie]);
+                            } else {
+                              alreadyAdded(false);
                             }
                           }}
                         />
@@ -164,7 +166,10 @@ function Home() {
 
                   <div className="relative">
                     <button onClick={() => setOpenModel(fav.imdbID)}>
-                      <FontAwesomeIcon icon={faEllipsisVertical} />
+                      <FontAwesomeIcon
+                        icon={faEllipsisVertical}
+                        className="cursor-pointer p-3 "
+                      />
                     </button>
 
                     {openModel === fav.imdbID && (
