@@ -1,7 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
 import axios from "axios";
 
-// ✅ Correct template literal inside string declaration
 const API_URL = `https://www.omdbapi.com/?apikey=${
   import.meta.env.VITE_API_KEY
 }`;
@@ -14,7 +13,7 @@ const AppProvider = ({ children }) => {
   const [errorMsg, setErrorMsg] = useState(null);
   const [totalPosts, setTotalPosts] = useState(0);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(10); // Fixed to a constant
+  const [postsPerPage] = useState(10);
   const [query, setQuery] = useState("nepal");
 
   // ✅ Fetch movies

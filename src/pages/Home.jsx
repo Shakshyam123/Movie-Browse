@@ -73,7 +73,6 @@ function Home() {
           </button>
         </form>
 
-        {/* Toggle Button */}
         <div className="flex items-center justify-center h-full gap-11">
           <h1
             className={
@@ -106,7 +105,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Main Content */}
       <div className="flex mt-16 text-gray-400 gap-10">
         {!toggle ? (
           <div className="w-fit">
