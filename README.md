@@ -1,44 +1,12 @@
-# Movie Search App
+# React + Vite
 
-A simple and responsive React app to search movies and save your favourites. Built with React, FontAwesome, and Tailwind CSS.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Search movies by title
-- View movie posters and basic info
-- Add/remove movies to your favourites list
-- Persistent favourites saved in local storage
-- Responsive design with Tailwind CSS
-- Toggle view between all movies and favourites
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Installation
+## Expanding the ESLint configuration
 
-Clone the repository:
-
-git clone https://github.com/your-username/movie-search.git
-cd movie-search
-Install dependencies:
-
-[`npm install`](#)
-Running the App
-Start the development server:
-
-[`npm run dev`](#)
-Open http://localhost:3000 in your browser to see the app.
-
-## Technologies Used
-
-React
-1.React
-2.Tailwind css
-3.Local Storage API
-4.Context API for global state management
-5.FontAwesome
-
-## How to Use
-
-Use the search bar to find movies by typing at least 3 characters.
-
-Click the heart icon to add movies to favourites.
-
-Use the toggle button to switch between all movies and your favourites list.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
